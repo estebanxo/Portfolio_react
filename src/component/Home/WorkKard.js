@@ -1,36 +1,27 @@
 import "../../style/WorkKard.scss";
 import { NavLink } from "react-router-dom";
-import KasaMockup from "../../assets/capture/kasa-mockup-1024x700-1.png";
 
-function WorkKard() {
+function WorkKard(props) {
   return (
-    <NavLink to={"/work"} className="containerCard containerCard1">
+    <NavLink to={`/work/${props.id}`} className="containerCard containerCard1">
       <div className="hoverCard hoverCard1">
         <p>Voir plus</p>
       </div>
       <div className="left">
-        <img src={KasaMockup} alt="" />
+        <img src={props.img} alt="" />
       </div>
       <div className="right">
         <div className="top">
-          <h3 className="titleHover">Front-end du site Kasa</h3>
+          <h3 className="titleHover">{props.title}</h3>
           <p>
-            <strong>Année:</strong> 2023
+            <strong>Année:</strong> {props.years}
           </p>
         </div>
         <div className="bottom">
-          <p>
-            <strong>Mission:</strong>
-          </p>
-          <p>
-            Projet réalisé dans le cadre de ma formation OpenClassrooms de
-            développeur web.
-          </p>
-          <p>
-            Développement du front d’un site de location d’hébergement avec
-            React.
-          </p>
-          <p>Création de composants React et gestion des états.</p>
+          <p>  <strong> Mission: </strong>  </p>
+          <p>  {props.missionp1}  </p>
+          <p>  {props.missionp2}  </p>
+          <p>  {props.missionp3}  </p>
         </div>
       </div>
     </NavLink>

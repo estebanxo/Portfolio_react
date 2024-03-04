@@ -4,6 +4,7 @@ import Skills from "./Skills";
 import WorkKard from "./WorkKard";
 import Footer from "../Footer";
 import ImgIntroduction from "../../assets/metier-developpeur-web.jpg";
+import KasaMockup from "../../assets/capture/kasa-mockup-1024x700-1.png";
 
 function Home() {
   return (
@@ -45,7 +46,9 @@ function Home() {
         <div id="mesTravaux">
           <h2>Réalisations</h2>
           <div className="cards">
-            <WorkKard />
+            <WorkKard id="kasa" img={KasaMockup} title="Front-end du site Kasa" years="2023" missionp1="Projet réalisé dans le cadre de ma formation OpenClassrooms de développeur web." 
+            missionp2="Développement du front d’un site de location d’hébergement avec React." 
+            missionp3="Création de composants React et gestion des états." />
             <WorkKard />
           </div>
         </div>
