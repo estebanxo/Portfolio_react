@@ -1,0 +1,90 @@
+#mesTravaux h2 {
+    margin: 70px 0;
+    text-align: center;
+}
+.cards {
+    width: 90%;
+    margin: 0 auto 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.containerCard {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    gap: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    box-shadow: 3px 5px 15px 5px rgba(155, 161, 173, 0.200), -3px 3px 3px 5px rgba(155, 161, 173, 0.200);
+}
+.hoverCard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5625rem;
+    transition: 0.5s;
+}
+.hoverCard p {
+    display: none;
+}
+.hoverCard:hover {
+    background-color: var(--bleu-fonce);
+    opacity: 0.9;
+}
+.left {
+    width: 30%;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.left img {
+    width: 100%;
+}
+.right {
+    width: 92%;
+    height: 330px;
+    font-family: "Overpass", sans-serif;
+    font-size: 18px;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(to bottom, #b3b9bd3b, #2c3e505c);
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.titleHover {
+    font-size: 20px;
+    margin: 0;
+    padding-right: 30px;
+}
+.top p {
+    margin: 0;
+}
+.bottom {
+    width: 90%;
+}
+.right strong {
+    font-size: 18px;
+}

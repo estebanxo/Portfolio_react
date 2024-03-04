@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    max-width: 1800px;
+    margin: auto;
+    font-family: "Overpass", sans-serif;
+}
+main {
+    position: relative;
+}
+h2, h1 {
+    color: var(--gris-fonce);
+}
+h2 {
+    font-size: 25px;
+    @media screen and (max-width: 860px) {
+        font-size: 20px;
+    }
+    @media screen and (max-width: 430px) {
+        font-size: 18px;
+    }
+}
+
+//                        Introduction
+
+#introduction1 {
+    position: absolute;
+    top: -150px;
+}
+#introduction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 150px 0 60px 0;
+    width: 100%;
+}
+#introduction article {
+    width: 500px;
+}
+.imgIntro {
+    width: 350px;
+}
+.imgIntro img {
+    width: 100%;
+}
