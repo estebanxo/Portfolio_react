@@ -1,0 +1,60 @@
+[
+    {
+        "id": "kasa",
+        "title": "Front-end du site Kasa",
+        "coverImage": "",
+        "years" : "2023",
+        "missions" : [
+            "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeur web.",
+            "Développement du front d’un site de location d’hébergement avec React.",
+            "Création de composants React et gestion des états."
+        ],
+        "projectChallenges" : [
+            "Création de l’application avec Create React App.",
+            "Stockage et récupération des données avec le state et les effets.",
+            "Mise en place du Routing avec React Router.",
+            "Mise en place des composants React.",
+            "Mon approche méthodique, mon organisation et mon sens de l'écoute vis à vis de mon mentor mon permis de surmonter ces défis."
+        ],
+        "technologiesUsed" : [
+            "HTML",
+            "SASS",
+            "React"
+        ],
+        "link" : "https://github.com/estebanxo/P6",
+        "images" : [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "Sophie",
+        "title": "Front-end du portfolio de Sophie Bluel",
+        "coverImage": "",
+        "years" : "2023",
+        "missions" : [
+            "Projet réalisé dans le cadre de ma formation OpenClassrooms de développeur web.",
+            "Développement du front du portfolio de Sophie Bluel avec JavaScript.",
+            "Création de la modale, appel à l'API, manipulation du DOM, Login/Logout etc."
+        ],
+        "projectChallenges" : [
+            "Appel à l'API avec les méthodes GET, POST, DELETE.",
+            "Création de modale, manipulation du DOM, écoute d'évènements.",
+            "Mon approche méthodique, mon organisation et mon sens de l'écoute vis à vis de mon mentor mon permis de surmonter ces défis."
+        ],
+        "technologiesUsed" : [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "link" : "https://github.com/estebanxo/Projet3",
+        "images" : [
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+]

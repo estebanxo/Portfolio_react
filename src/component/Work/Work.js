@@ -1,5 +1,9 @@
 import { useEffect } from "react";
 import "../../style/Work.scss";
+import KasaImg1 from "../../assets/capture/FireShot1_Kasa.png";
+import KasaImg2 from "../../assets/capture/FireShot2_Kasa.png";
+import KasaImg3 from "../../assets/capture/FireShot3_Kasa.png";
+import KasaImg4 from "../../assets/capture/FireShot4_Kasa.png";
 import Header from "../Header";
 import Description from "./Description";
 import { useParams } from "react-router-dom";
@@ -13,7 +17,7 @@ function Work() {
     const kasa = params.id;
     console.log(kasa);
 
-    if (kasa != "kasa") {
+    if (kasa !== "kasa") {
       navigate("/404");
     }
   },[params.id, navigate]);
@@ -35,10 +39,10 @@ function Work() {
         </div>
         <div class="screenShotContainer">
             <div id="screenShot"></div>
-            <img id="kasa1" src="../assets/capture/FireShot1_Kasa.png" alt=""/>
-            <img id="kasa2" src="../assets/capture/FireShot2_Kasa.png" alt=""/>
-            <img id="kasa3" src="../assets/capture/FireShot3_Kasa.png" alt=""/>
-            <img id="kasa4" src="../assets/capture/FireShot4_Kasa.png" alt=""/>
+            <img id="kasa1" src={KasaImg1} alt=""/>
+            <img id="kasa2" src={KasaImg2} alt=""/>
+            <img id="kasa3" src={KasaImg3} alt=""/>
+            <img id="kasa4" src={KasaImg4} alt=""/>
         </div>
       </main>
     </div>
